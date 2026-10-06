@@ -1,0 +1,33 @@
+{
+  "metric": "tg128",
+  "cores": {
+    "physical": 8,
+    "logical": 16
+  },
+  "rows": [
+    {
+      "threads": 1,
+      "tok_s": 8.44
+    },
+    {
+      "threads": 4,
+      "tok_s": 19.51
+    },
+    {
+      "threads": 8,
+      "tok_s": 20.0
+    },
+    {
+      "threads": 16,
+      "tok_s": 9.8
+    },
+    {
+      "threads": 32,
+      "tok_s": 9.71
+    }
+  ],
+  "best": {
+    "threads": 8,
+    "tok_s": 20.0
+  }
+}
